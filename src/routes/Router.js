@@ -21,7 +21,7 @@ const Router = () => {
   return (
     <div>
         <Routes>
-            <Route exact path={ROUTES.Home} element={<RouteWithRole Element={Home} />}></Route>
+            <Route exact path={ROUTES.Home} element={<RouteWithRole Element={Description} />}></Route>
             <Route exact path={ROUTES.About} element={<RouteWithRole Element={About} />}></Route>
             <Route exact path={ROUTES.Ringtone} element={<RouteWithRole Element={Description} />}></Route>
         </Routes>

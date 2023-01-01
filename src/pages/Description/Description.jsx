@@ -17,19 +17,19 @@ const Description = () => {
                         <img src={disp} alt="" className='w-full' />
                         <div className="flex justify-between mt-3">
                             <div className="flex gap-4 items-center">
-                                <FiStar className='fill-blue4 text-blue4 w-[24px] h-[24px]' />
+                                <FiStar className='fill-blue4 text-blue4 w-[24px] h-[24px] cursor-pointer' />
                                 <span className='text-base'>4.4</span>
                             </div>
                             <div className="flex gap-4 items-center">
-                                <FiPlayCircle className='w-[24px] h-[24px]' />
+                                <FiPlayCircle className='w-[24px] h-[24px] cursor-pointer' />
                                 <span className='text-base'>4.4k</span>
                             </div>
                             <div className="flex gap-4 items-center">
-                                <FiArrowDown className=' w-[24px] h-[24px]' />
+                                <FiArrowDown className=' w-[24px] h-[24px] cursor-pointer' />
                                 <span className='text-base'>4.4</span>
                             </div>
                             <div className="flex gap-4 items-center">
-                                <FiHeart className='w-[24px] h-[24px] fill-[red] text-[red]' />
+                                <FiHeart className='w-[24px] h-[24px] fill-[red] text-[red] cursor-pointer' />
                                 <span className='text-base'>4.4k</span>
                             </div>
                         </div>
@@ -78,24 +78,24 @@ const Description = () => {
             <Card className={'mt-[50px]'}>
                 <div className="grid grid-cols-5">
                     <div className="sm:col-span-2 col-span-5">
-                        <div>
+                        <div className='text-2xl'>
                             Please Provide Us You Opinion
                         </div>
                         <div className='grid grid-cols-5 mt-3'>
                             <div className="col-span-1 flex justify-center items-center text-2xl">
-                                <FiStar />
+                                <FiStar  className='cursor-pointer'/>
                             </div>
                             <div className="col-span-1 flex justify-center items-center text-2xl">
-                                <FiStar />
+                                <FiStar  className='cursor-pointer'/>
                             </div>
                             <div className="col-span-1 flex justify-center items-center text-2xl">
-                                <FiStar />
+                                <FiStar  className='cursor-pointer'/>
                             </div>
                             <div className="col-span-1 flex justify-center items-center text-2xl">
-                                <FiStar />
+                                <FiStar  className='cursor-pointer'/>
                             </div>
                             <div className="col-span-1 flex justify-center items-center text-2xl">
-                                <FiStar />
+                                <FiStar  className='cursor-pointer'/>
                             </div>
 
                         </div>
